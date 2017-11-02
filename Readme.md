@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/19/user/526361).
-* Наставник: `Неизвестно`.
+* Студент: Щаднева Елена (https://up.htmlacademy.ru/htmlcss/19/user/526361).
+* Наставник: Ярослав Шевцов
 
 ---
 
@@ -42,4 +42,3 @@ _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
 Репозиторий создан для обучения на интенсивном онлайн‑курсе «[Базовый HTML и CSS](https://htmlacademy.ru/intensive/htmlcss)» от [HTML Academy](https://htmlacademy.ru).
 
-Ярослав Шевцов
