@@ -7,24 +7,29 @@
     <body>
       <header class="main_header">
         <h1 class="visually-hidden">Магазин инструментов "Техномарт"</h1>
-          <a class="main-header-logo">
-            <img src="#" width="#" height="#" alt="Логотип магазина «Техномарт»">
-          </a>
+          <span>Техномарт</span>
+            <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\лого.png" alt="Логотип магазина «Техномарт»">
         <form>
-          <input type="text" name="search" placeholder="Поиск">
+          <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\icon-search.png" alt="icon">
+          <input type="search" name="search" placeholder="Поиск">
         </form>
-        <a href="#" class="header_bookmarks">Закладки<span>0</span></a>
-        <a href="#" class="header_bascet added_bascet">Корзина 10</a>
-        <a href="#" class="order">Оформить заказ</a>
+            <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\icon-bookmark.png" alt="icon">
+          <a href="#" class="header_bookmarks">Закладки<span>0</span></a>
+            <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\cart-icon.png" alt="icon">
+          <a href="#" class="header_bascet added_bascet">Корзина 10</a>
+          <a href="#" class="order">Оформить заказ</a>
         <div class="header_info">
           <p>Интернет-магазин строительных материалов и инстументов для ремонта</p>
         </div>
         <div class="header_contacts">
+          <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\icon-phone.png" alt="icon">
           <a href="tel:+7(812)555-05-55"><span>tel.</span>+7 (812) 555-05-55</a>
           <p class="header_address">г.Санкт-Петербург<br>ул. Большая Конюшенная д.19/8</p>
         </div> 
         <div class="user-block">
+          <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\icon-user.png" alt="logo">
           <a href="#" class="user_name">Равшан Джамшутович</a>
+          <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\icon-logout.png" alt="logo">
           <a href="#" class="personal">Мои заказы</a>
           <a href="#" class="personal">Личный кабинет</a>
         </div>       
@@ -43,18 +48,27 @@
       <main class="container">
         <h2 class="main_title">Перфораторы</h2>
           <ul class="breadcrumbs">
+              <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\icon-home.png" alt="logo">
+              <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\icon-right-small.png" alt="logo">
             <li><a href="#">Каталог</a></li>
+              <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\icon-right-small.png" alt="logo">
             <li><a href="#">Инструмент</a></li>
+              <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\icon-right-small.png" alt="logo">
             <li><a href="#">Перфораторы</a></li>
           </ul>
         <aside class="container-left">
           <span>Фильтр:</span>
           <form>
+            <div class="">
             <p>Цена:</p>
-              <input type="range" name="radio">
+              <input type="range" min="0" max="30000" step="1">
+            </div>
+            <div class="">
               <input type="text" name="min_price" value="0">
               <span>-</span>
               <input type="text" name="max_price" value="30000">
+            </div>
+            <div class="">
             <p>Производители:</p>
               <label for="bosch_checkbox">
                 <input type="checkbox" id="bosch_checkbox" name="bosch" checked>Bosch
@@ -71,6 +85,8 @@
               <label for="hitachi_check">
                 <input type="checkbox" id="hitachi_check" name="hitachi">Hitachi
               </label>
+            </div>
+            <div class="">
             <p>Питание:</p>
               <label for="recharge">
                 <input type="radio" id="recharge" name="charge" checked>Аккумуляторные
@@ -78,7 +94,8 @@
               <label for="uncharge">
                 <input type="radio" id="uncharge" name="charge">Сетевые
               </label>
-              <button type="submit">Показать</button>
+            </div>
+              <button>Показать</button>
           </form>
         </aside>
         <section class="container-right">
@@ -89,81 +106,101 @@
                 <li><a href="">По типу</a></li>
                 <li><a href="">По функционалу</a></li>
               </ul>
-            <button class="sort_up">+</button>
-            <button class="sort_down">-</button>
+            <button class="sort_up">
+              <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\icon-up-dir.png" alt="icon-up">
+            </button>
+            <button class="sort_down">
+              <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\icon-down-dir.png" alt="icon-down">
+            </button>
           </div>
-          <section class="items">
+          <div class="items">
             <a href="#">
               <h3>Перфоратор BOSCH BFG 3000</h3>
-              <img src="http://placehold.it/150x100">
+              <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\BFG3000.png" alt="BFG3000">
             </a>
-              <p class="price_1">22500 P.</p>
-              <p class="price_2">15500 P.</p>
-          </section>
-          <section class="items">
+              <p class="price_old">22500 P.</p>
+              <p class="price_new">15500 P.</p>
+              <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\price red.png" alt="15500">
+          </div>
+          <div class="items">
             <a href="#">
               <h3>Перфоратор BOSCH BFG 6000</h3>
-              <img src="http://placehold.it/150x100">
+              <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\BFG6000.png" alt="BFG6000">
             </a>
-              <p class="price_1">30500 P.</p>
-              <p class="price_2">25500 P.</p>
-          </section>
-          <section class="items">
-            <span>new</span>
-            <a href="#"><h3>Перфоратор BOSCH BFG 2000</h3>
-              <img src="http://placehold.it/150x100">
-            </a>
-              <p class="price_2">12500 P.</p>
-              <button class="buy">Купить</button>
-              <button class="to_bookmarks">в закладки</button>
-          </section>
-          <section class="items">
-            <a href="#">
-              <h3>Перфоратор BOSCH BFG 3000</h3>
-              <img src="http://placehold.it/150x100">
-            </a>
-              <p class="price_1">22500 P.</p>
-              <p class="price_2">15500 P.</p>
-          </section>
-          <section class="items">
-            <a href="#">
-              <h3>Перфоратор BOSCH BFG 6000</h3>
-              <img src="http://placehold.it/150x100">
-            </a>
-              <p class="price_1">30500 P.</p>
-              <p class="price_2">25500 P.</p>
-          </section>
-          <section class="items">
+              <p class="price_old">30500 P.</p>
+              <p class="price_new">25500 P.</p>
+              <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\price red.png" alt="25500">
+          </div>
+          <div class="items">
+              <span>new</span>
+                <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\new_red.png" alt="icon">
             <a href="#">
               <h3>Перфоратор BOSCH BFG 2000</h3>
-              <img src="http://placehold.it/150x100">
             </a>
-              <p class="price_2">12500 P.</p>
-          </section>
-          <section class="items">
+              <p class="price_new">12500 P.</p>
+                <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\price red.png" alt="12500">
+              <button class="buy">
+                <a href="#">Купить
+                  <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\cart-icon.png" alt="icon">
+                </a>
+              </button>
+              <button class="to_bookmarks">
+                <a href="#">в закладки</a>
+              </button>
+          </div>
+          <div class="items">
             <a href="#">
               <h3>Перфоратор BOSCH BFG 3000</h3>
-              <img src="http://placehold.it/150x100">
+                <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\BFG3000.png" alt="BFG3000">
             </a>
-              <p class="price_1">22500 P.</p>
-              <p class="price_2">15500 P.</p>
-          </section>
-          <section class="items">
+              <p class="price_old">22500 P.</p>
+              <p class="price_new">15500 P.</p>
+                <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\price red.png" alt="15500">
+          </div>
+          <div class="items">
             <a href="#">
               <h3>Перфоратор BOSCH BFG 6000</h3>
-              <img src="http://placehold.it/150x100">
+                <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\BFG6000.png" alt="BFG6000">
             </a>
-              <p class="price_1">30500 P.</p>
-              <p class="price_2">25500 P.</p>
-          </section>
-          <section class="items">
+              <p class="price_old">30500 P.</p>
+              <p class="price_new">25500 P.</p>
+                <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\price red.png" alt="25500">
+          </div>
+          <div class="items">
             <a href="#">
               <h3>Перфоратор BOSCH BFG 2000</h3>
-              <img src="http://placehold.it/150x100">
+              <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\BFG2000.png" alt="BFG2000">
             </a>
-              <p class="price_2">12500 P.</p>
-          </section>
-        </section>
+              <p class="price_new">12500 P.</p>
+              <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\price red.png" alt="12500">
+          </div>
+          <div class="items">
+            <a href="#">
+              <h3>Перфоратор BOSCH BFG 3000</h3>
+                <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\BFG3000.png" alt="BFG3000">
+            </a>
+              <p class="price_old">22500 P.</p>
+              <p class="price_new">15500 P.</p>
+                <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\price red.png" alt="15500">
+          </div>
+          <div class="items">
+            <a href="#">
+              <h3>Перфоратор BOSCH BFG 6000</h3>
+                <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\BFG6000.png" alt="BFG6000">
+            </a>
+              <p class="price_old">30500 P.</p>
+              <p class="price_new">25500 P.</p>
+                <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\price red.png" alt="25500">
+          </div>
+          <div class="items">
+            <a href="#">
+              <h3>Перфоратор BOSCH BFG 2000</h3>
+              <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\BFG2000.png" alt="BFG2000">
+            </a>
+              <p class="price_new">12500 P.</p>
+              <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\price red.png" alt="12500">
+          </div>
+        </section>  
         <div class="page">
           <ul class="pagination_list">
             <li class="pagination_item_current">1</li>
@@ -186,7 +223,8 @@
       <footer class="footer">
         <section class="footer_nav">
           <div class="footer-contacts">
-            <img src="#" width="#" height="#" alt="Логотип магазина «Техномарт»">
+            <span>Техномарт</span>
+            <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\лого.png" alt="Логотип магазина «Техномарт»">
             <p>Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
                Телефон: +7 (812) 555-05-55</p>
           </div>
@@ -213,13 +251,19 @@
           <div class="footer-social">
             <ul>
               <li>
-                <a class="social-button" href="#">Вконтакте</a>
+                <a href="#" class="social-button" >Вконтакте
+                  <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\vk-icon.png" alt="VK">
+                </a>
               </li>
               <li>
-                <a class="social-button" href="#">Фейсбук</a>
+                <a href="#" class="social-button" >Фейсбук
+                  <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\fb-icon.png" alt="FB">
+                </a>
               </li>
               <li>
-                <a class="social-button" href="#">Инстаграм</a>
+                <a href="#" class="social-button" >Инстаграм
+                  <img src="c:\Users\user\Documents\GitHub\526361-technomart\img\insta-icon.png" alt="Insta">
+                </a>
               </li>
             </ul>
           </div>
