@@ -3,34 +3,43 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="header">
-      <h1 class="visually-hidden">Магазин инструментов "Техномарт"</h1>
-        <img src="img\technomart.png" alt="logo">
-        <img src="img\svg-technomart\red-logo.svg" alt="logo">
-      <form>
-        <input type="search" name="search" placeholder="Поиск">
-        <img src="img/svg-technomart/icon-search.svg" alt="icon">
-      </form>
+      <div class="header-user">
+        <h1 class="visually-hidden">Магазин инструментов "Техномарт"</h1>
+          <a class="logo" href="#">
+            <img src="img\technomart.png" alt="logo">
+          </a>
+        <form>
+          <img src="img/svg-technomart/icon-search.svg" alt="icon">
+          <input type="search" name="search" placeholder="Поиск">
+        </form>
         <img src="img/svg-technomart\icon-bookmark.svg" alt="icon">
-      <a href="#" class="header_bookmarks">Закладки<span>0</span></a>
+        <a href="#" class="header_bookmarks">Закладки<span>0</span></a>
         <img src="img/svg-technomart\icon-cart.svg" alt="icon">
-      <a href="#" class="header_bascet">Корзина<span>0</span></a>
-      <a href="#" class="order">Оформить заказ</a>
-      <div class="header_info">
+        <a href="#">Корзина<span>0</span></a>
+        <a href="#" class="checkout-order">Оформить заказ</a>
+      </div>
+      <div class="header-info">
         <p>Интернет-магазин строительных материалов и инстументов для ремонта</p>
       </div>
-      <div class="header_contacts">
-        <a href="tel:+7(812)555-05-55"><span>tel.</span>+7 (812) 555-05-55</a>
+      <div class="header-contacts">
+        <div class="header-phone">
           <img src="img\svg-technomart\icon-phone.svg" alt="icon">
-        <p class="header_address">г.Санкт-Петербург<br>ул. Большая Конюшенная д.19/8</p>
+          <span>tel.</span>
+          <a href="tel:+7(812)555-05-55"></a>+7 (812) 555-05-55</a>
+        </div>
+        <div class="header-address">
+          <p class="address">г.Санкт-Петербург<br>ул. Большая Конюшенная д.19/8</p>
+        </div>  
       </div> 
       <div class="user-block">
-        <form>
-          <input type="image" src="#" alt="Войти">
-      </form>
-        <a href="#" class="registration">Регистрация</a>
+        <a href="#" class="header-input">Вход</a>
+        <a href="#" class="header-registration">Регистрация</a>
       </div>
       <nav class="main-navigation">
         <ul class="site-navigation">

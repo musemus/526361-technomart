@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;
+
+    background-color: #f4f7f9;
+}
+
+.logo {
+    background-color: #ee3643;
+    border-bottom: 5px solid #b52933;
+    display: inline-block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.logo:hover {
+    background-color: #ca2c37;
+    border-bottom: 5px solid #9a212a;
+}
+
+.logo:active {
+    background-color: #ba2732;
+    border-bottom: 5px solid #8e1e26;
+}
+
+.checkout-order {
+    background-color: #63a63e;
+    display: inline-block;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-left: 21px;
+    padding-right: 23px;
+}
+
+.checkout-order:hover {
+    background-color: #5fbb2d;
+    
+}
+
+.checkout-order:active {
+    background-color: #518534;
+    color: rgba( 255, 255, 255, 0.51);
+}
+
+.header-user,
+.main-navigation {
+    background-color: #293449;
+}
+
+.header-user a {
+    color: #ffffff;
+}
+
+.header-user .visually-hidden {
+    font-size: 1px;
+    color: #293449; 
+}
+
+.header-info {
+    line-height: 23px;
+    font-style: italic;
+    color: #ee3643;
+}
+
+.header-contacts {
+    font-size: 21px;
+    line-height: 18px;
+    color: #ee3643;
+}
+
+.header-phone {
+    border: 3px solid #ffffff;
+    padding-top: 13px;
+    padding-right: 53px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.header-address {
+    font-size: 14px;
+    line-height: 24px;
+    color: #32425c; 
+}
+
+.header-input {
+    font-size: 21px;
+    line-height: 18px;
+    color: #000000;
+    background-color: #ffffff;
+    padding-top: 14px;
+    padding-right: 27px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    display: inline-block;
+}
+
+.header-registration {
+    font-size: 21px;
+    line-height: 18px;
+    color: #000000;
+    background-color: #ffffff;
+    padding-top: 14px;
+    padding-right: 26px;
+    padding-bottom: 16px;
+    padding-left: 25px;
+    display: inline-block;
+}
+
+.header-input:hover,
+.header-registration:hover {
+    color: #ee3643;
+}
+
+.header-input:active,
+.header-registration:active { 
+    color: rgba( 0, 0, 0, 0.30); 
+}
+
+
+
+
+
