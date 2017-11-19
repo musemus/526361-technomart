@@ -65,7 +65,7 @@ a {
 }
 
 .header-user,
-.main-navigation {
+.header-navigation {
     background-color: #293449;
 }
 
@@ -139,7 +139,14 @@ a {
     color: rgba( 0, 0, 0, 0.30); 
 }
 
+.navigation-list a {
+    line-height: 17px;
+    color: #ffffff;
+}
 
+.navigation-list {
+    list-style: none;
+}
 
 
 
