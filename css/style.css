@@ -301,5 +301,147 @@ input[type="search"]:focus {
     overflow: hidden;
 }
 
+.main-slider .visually-hidden {
+    font-size: 1px;
+    color: #ffffff;
+}
 
+.slider-inner h2 {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
 
+.slider-inner p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.main-slider a,
+.popular-item-header a,
+.popular-producers-header a {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #ee3643;
+    padding-top: 13px;
+    padding-right: 45px;
+    padding-bottom: 14px;
+    padding-left: 49px;
+    display: inline-block;
+}
+
+.main-slider a:hover {
+    background-color: #ca2c37;
+}
+
+.main-slider a:active {
+    background-color: #ba2732;
+}
+
+.popular-item-header h2,
+.popular-producers-header h2 {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    color: #32425c;
+    text-transform: uppercase;
+    background-color: #f9f5f0;
+    padding-top: 33px;
+    padding-bottom: 35px;
+    
+}
+
+.item h3 {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.price-1 {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #a9a9a9;
+    text-decoration: line-through;
+}
+
+.price-2 {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.item {
+    display: inline-block;
+    border: 1px solid #eaeaea;
+    
+}
+
+.produsers {
+    list-style: none;   
+}
+
+.produsers li {
+    border: 1px solid #eaeaea;
+    display: inline-block;
+}
+
+.service-content {
+    background-color: #f4f8f9;
+}
+
+.service-choice h2 {
+    font-size: 30px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.service-choice p {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.service-delivery h2,
+.servise-guarantee h2,
+.servise-credit h2 {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 36px;
+    line-height: 24px;
+    color: #32425c;
+    text-transform: uppercase;
+}
+
+.service-delivery p,
+.servise-guarantee p,
+.servise-credit p {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.servise-credit a {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #ff5357;
+    padding-top: 13px;
+    padding-right: 45px;
+    padding-bottom: 14px;
+    padding-left: 49px;
+    display: inline-block;
+    
+}
