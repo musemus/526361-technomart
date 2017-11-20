@@ -443,5 +443,77 @@ input[type="search"]:focus {
     padding-bottom: 14px;
     padding-left: 49px;
     display: inline-block;
+}
+
+.servise-button a{
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #32425c;
+    padding-top: 21px;
+    padding-right: 141px;
+    padding-bottom: 22px;
+    padding-left: 22px;
+    display: inline-block;
     
+}
+
+.servise-button-choice {
+    list-style: none;
+}
+
+.servise-button a:hover {
+    background-color: #293449;
+}
+
+.servise-button a:active {
+    background-color: #ffffff;
+    color: #32425c;
+}
+
+.info h2 {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.variant-delivery {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.about-us a {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #ee3643;
+    padding-top: 13px;
+    padding-right: 40px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    display: inline-block;
+}
+
+.communications a {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #ee3643;
+    padding-top: 13px;
+    padding-right: 64px;
+    padding-bottom: 12px;
+    padding-left: 60px;
+    display: inline-block;
 }
