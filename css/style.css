@@ -104,7 +104,7 @@ input[type="search"]:focus {
     border: 0;
 }
 
-.header_bookmarks {
+.header-bookmarks {
     background-color: #293449;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -214,12 +214,14 @@ input[type="search"]:focus {
 
 .header-navigation {
     background-color: #32425c;
-    
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .header-navigation a {
-    display: block;
-    padding: 8px 14px;
+    display: inline-block;
+    padding: 10px 10px;
+    
 }
 
 .header-navigation a:hover {
@@ -238,6 +240,10 @@ input[type="search"]:focus {
 
 .navigation-list {
     list-style: none;  
+}
+
+.navigation-list li {
+    display: inline-block;
 }
 
 .main-menu h3 {
@@ -273,22 +279,34 @@ input[type="search"]:focus {
 
 
 .materials {
+    width: 300px;
+    height: 122px;
     background-color: #ffbf47;
+    
 }
 
 .tools {
+    width: 300px;
+    height: 122px;
     background-color: #3bbce3;
+
 }
 
 .technics {
+    width: 300px;
+    height: 122px;
     background-color: #dc91d8;
 }
 
 .sales {
+    width: 300px;
+    height: 122px;
     background-color: #8ed78f; 
 }
 
 .delivery {
+    width: 300px;
+    height: 122px;
     background-color: #ffc047;
 }
 
@@ -517,3 +535,159 @@ input[type="search"]:focus {
     padding-left: 60px;
     display: inline-block;
 }
+
+.user-form {
+    width: 620px;
+    height: 430px;
+    margin-top: 10px;
+    border-top: 7px solid #ff5257;
+    padding: 54px 80px 37px 80px;
+}
+
+.user-form p {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.user-form input {
+    font-size: 13px;
+    line-height: 18px;
+    width: 218px;
+    height: 34px;
+}
+
+.user-form input#user-comment {
+    width: 451px;
+    height: 111px;
+    
+}
+
+.button-user-form {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #ee3643;
+    padding-top: 13px;
+    padding-right: 200px;
+    padding-bottom: 14px;
+    padding-left: 199px;
+    display: inline-block; 
+}
+
+.footer-navigation {
+    background-color: #32425a;
+}
+
+.footer-logo {
+    background-color: #ee3643;
+    border-bottom: 5px solid #b52933;
+    display: inline-block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.footer-adress {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.navigation-1,
+.navigation-2 {
+    list-style: none;
+}   
+
+.navigation-1 a {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #f1f5f7; 
+}
+
+.navigation-2 a {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffd180;
+}
+
+.navigation-1 a:hover,
+.navigation-2 a:hover {
+    text-decoration: underline;
+}
+
+.navigation-1 a:active{
+    color: rgba( 241, 245, 247, 0.5)
+}
+
+.navigation-2 a:active {
+    color: rgba( 255, 209, 128, 0.5)
+}
+
+.footer-2 {
+    background-color: #293449;
+}
+
+.rights {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footer-social-button {
+    list-style: none;
+}
+
+.footer-social a {
+    background-color: #212a3a;
+    padding: 10px;
+    display: inline-block;
+}
+
+.footer-social a:hover,
+.footer-social a:active {
+    background-color: #ee3643;
+}
+
+.feedback p,
+.developed-by p {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.feedback a,
+.developed-by a {
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffd180;
+}
+
+.feedback a:hover,
+.developed-by a:hover {
+    text-decoration: underline;
+}
+
+.feedback a:active,
+.developed-by a:active {
+    color: #ee3643;
+}
+
+

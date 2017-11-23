@@ -16,12 +16,12 @@
           </a>
         <form>
           <img class="search-icon" src="img/svg-technomart/icon-search.svg" alt="icon">
-          <input type="search" name="search" placeholder="Поиск">
+          <input type="search" name="search" placeholder="Поиск:">
         </form>
         <img class="header-icon" src="img/svg-technomart\icon-bookmark.svg" alt="icon">
-        <a href="#" class="header_bookmarks">Закладки<span>0</span></a>
+        <a href="#" class="header-bookmarks">Закладки: 0</a>
         <img class="header-icon" src="img/svg-technomart\icon-cart.svg" alt="icon">
-        <a href="#" class="header-cart">Корзина<span>0</span></a>
+        <a href="#" class="header-cart">Корзина: 0</a>
         <a href="#" class="checkout-order">Оформить заказ</a>
       </div>
       <div class="header-info">
@@ -92,13 +92,7 @@
         </div>
       </section>
       <section class="main-slider">
-        <h2 class="visually-hidden">Подробно о товарах</h2>
-          <input type="radio" id="btn-1" name="toggle" checked>
-          <input type="radio" id="btn-2" name="toggle">
-        <div class="slider-controls">
-            <label for="btn-1"></label>
-            <label for="btn-2"></label>
-        </div>
+        <h2 class="visually-hidden">Подробно о товарах</h2>  
         <div class="slider-inner">
           <div class="slider-one">
             <img src="img\perforator.jpg" alt="perforator">
@@ -111,6 +105,12 @@
               <p>Соседям на радость!</p>  
           </div>
         </div>
+        <input type="radio" id="btn-1" name="toggle" checked>
+        <input type="radio" id="btn-2" name="toggle">
+      <div class="slider-controls">
+          <label for="btn-1"></label>
+          <label for="btn-2"></label>
+      </div>
         <a href="#">Открыть каталог</a>
       </section>
       <section class="popular-item">
@@ -233,32 +233,32 @@
         <div class="user-form">
           <form class="">
             <p>
-              <label for="user-name">Ваше имя</label>
+              <label for="user-name"><p>Ваше имя</p></label>
               <input id="user-name" type="text" name="username" placeholder="Представьтесь, пожалуйста">
             </p>
             <p>
-              <label for="user-mail">Ваш e-mail:</label>
+              <label for="user-mail"><p>Ваш e-mail:</p></label>
               <input id="user-mail" type="text" name="e-mail" placeholder="Для отправки ответа">
             </p>
             <p>
-              <label for="user-comment">Текст письма:</label>
-              <textarea id="user-comment" name="comment"  rows="10" cols="40" placeholder="В свободной форме"></textarea> 
+              <label for="user-comment"><p>Текст письма:</p></label>
+              <input id="user-comment" type="text" name="comment" placeholder="В свободной форме"></textarea> 
             </p>
-            <button class="button" type="submit">Отправить</button>
+            <button class="button-user-form" type="submit">Отправить</button>
           </form>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <section class="footer_nav">
+      <div class="footer-navigation">
         <div class="footer-contacts">
-          <img src="img\technomart.png" alt="logo">
+          <img class="footer-logo" src="img\technomart.png" alt="logo">
           <img src="img\svg-technomart\red-logo.svg" alt="logo">
-          <p>Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <p class="footer-adress">Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
            Телефон: +7 (812) 555-05-55</p>
         </div>
-        <div class="footer_navigation">
-          <ul class="navigation_1">
+        <div class="footer-navigation">
+          <ul class="navigation-1">
             <li>
               <a href="#">Компания</a>
             </li>
@@ -275,7 +275,7 @@
               <a href="#">Контаты</a>
             </li>
           </ul>
-          <ul class="navigation_2">
+          <ul class="navigation-2">
             <li>
               <a href="#">Материалы</a>
             </li>
@@ -290,33 +290,35 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="footer_2">
-        <div class="rights">
-          <p>© 2010–2017 Компания «Техномарт»<br>Все права защищены</p>
-        </div>
+      </div>
+      <div class="footer-2">
+        <p class="rights">© 2010–2017 Компания «Техномарт»<br>Все права защищены</p>
         <div class="footer-social">
-          <ul>
+          <ul class="footer-social-button">
             <li>
-              <a href="#" class="social-button">Вконтакте</a>
+              <a href="#">
+                <img src="img\svg-technomart\icon-vk.svg" alt="Вконтакте">
+              </a>
             </li>
             <li>
-              <a href="#" class="social-button">Фейсбук</a>
+              <a href="#">
+                <img src="img\svg-technomart\icon-fb.svg" alt="Фейсбук"></a>
             </li>
             <li>
-              <a href="#" class="social-button">Инстаграм</a>
+              <a href="#">
+                <img src="img\svg-technomart\icon-insta.svg" alt="Инстаграм"></a>
             </li>
           </ul>
         </div>
-        <div class=feedback>
+        <div class="feedback">
           <p>Обратная связь:</p>
-            <a href="https://mail.htmlacademy.ru" class="button">mail@htmlacademy.ru</a>
+            <a href="#">mail@htmlacademy.ru</a>
         </div>
-        <div class="developed_by">
+        <div class="developed-by">
           <p>Разработано-</p>
-            <a href="https://htmlacademy.ru" class="button">HTML Academy</a>
+            <a href="#">HTML Academy</a>
         </div>
-      </section>
+      </div>
     </footer>
   </body>  
 </html>
