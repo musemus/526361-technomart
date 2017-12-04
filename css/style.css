@@ -26,10 +26,14 @@ a {
 .logo {
     background-color: #ee3643;
     border-bottom: 5px solid #b52933;
-    padding-top: 12px;
+    padding-top: 17px;
     padding-bottom: 12px;
     padding-left: 55px;
     padding-right: 55px;
+    position: absolute;
+    left: 220px;
+    height: 25px;
+
 }
 
 .logo:hover {
@@ -49,7 +53,7 @@ a {
 .header-user {
     max-width: 940px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin: 0 auto;
 }
 
@@ -70,6 +74,7 @@ a {
 .search-form {
     display: flex;
     align-items: center;
+    margin-right: 40px;
 }
 
 .search-form:hover .search-icon {
