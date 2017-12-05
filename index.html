@@ -12,7 +12,7 @@
       <div class="header-user-wrap">
         <h1 class="visually-hidden">Магазин инструментов "Техномарт"</h1>
         <div class="header-user">
-          <a class="logo" href="#">
+          <a class="logo" href="index.html">
             <img src="img\technomart.png" alt="logo">
           </a>
           <form class="search-form">
@@ -79,61 +79,69 @@
     <main class="main">
       <section class="main-menu">
         <div class="top-row">
-          <div class="materials">
-            <h3>Материалы</h3>
-            <span>new</span>
-            <a href="#">На любой вкус</a>
+          <div class="main-menu-item materials">
+            <div class="menu-item-wrap">
+              <h3>Материалы</h3>
+              <a href="#">На любой вкус</a>
+            </div>
+            <img src="img/svg-technomart/icon-1.svg" alt="" class="main-menu-icon">
           </div>
-          <div class="tools">
-            <h3>Инструменты</h3>
-            <a href="#">На все случаи</a>
+          <div class="main-menu-item tools">
+            <div class="menu-item-wrap">
+              <h3>Инструменты</h3>
+              <a href="#">На все случаи</a>
+            </div>
+            <img src="img/svg-technomart/icon-2.svg" alt="" class="main-menu-icon">
           </div>
-          <div class="technics">
-            <h3>Техника</h3>
-            <a href="#">Для стройки</a>
+          <div class="main-menu-item technics">
+            <div class="menu-item-wrap">
+              <h3>Техника</h3>
+              <a href="#">Для стройки</a>
+            </div>
+            <img src="img/svg-technomart/icon-3.svg" alt="" class="main-menu-icon">
           </div>
         </div>
-
+        
         <div class="bottom-row">
           <section class="main-slider">
-            <h2 class="visually-hidden">Подробно о товарах</h2>  
-            <div class="slider-inner">
-              <img src="img\perforator.jpg" alt="perforator">
+            <div class="slider-controls-arrows">
+              <img src="img/svg-technomart/icon-left.svg" alt="">
+              <img src="img/svg-technomart/icon-right.svg" alt="">
             </div>
-        <!-- <div class="slider-inner">
-              <img src="img\perforator.jpg" alt="perforator">
-                <div class="slider-one">
-                  <div class="slider-one-content">
-                    <h2>Перфораторы</h2> 
-                      <p>Настоящие мужские игрушки</p>
+            <input class="visually-hidden" type="radio" id="product-1" name="toggle" checked>
+            <input class="visually-hidden" type="radio" id="product-2" name="toggle">
+            <div class="slider-controls">
+              <label class="slider-controls-item slider-controls-item--1" for="product-1">Первый слайд</label>
+              <label class="slider-controls-item slider-controls-item--2" for="product-2">Второй слайд</label>
+            </div>
+            <ul class="slider-list">
+                <li class="slider-item">
+                  <h2 class="slide-title">Перфораторы</h2>
+                  <p class="slide-subtitle">Настоящие мужские игрушки</p>
+                  <a href="catalog.html" class="slider-button">Открыть каталог</a>
+                </li>
+                <li class="slider-item">
+                  <h2 class="slide-title">Дрели</h2>
+                  <p class="slide-subtitle">Соседям на радость!</p>
+                  <a href="catalog.html" class="slider-button">Открыть каталог</a>
+                </li>
+              </ul>                         
+          </section>
+              
+              <div class="menu-wrap">
+                <div class="main-menu-item sales">
+                  <div class="menu-item-wrap">
+                    <h3>Скидки 50%</h3>
+                    <a href="#">На 350 товаров</a>
                   </div>
+                  <img src="img/svg-technomart/icon-4.svg" alt="" class="main-menu-icon">
                 </div>
-                <div class="slider-two">
-                  <img src="img\drill.jpg" alt="drill">
-                    <div class="slider-two-info">
-                      <h2>Дрели</h2> 
-                      <p>Соседям на радость!</p>  
-                    </div>
-                </div>
-                <div>
-                  <input type="radio" id="btn-1" name="toggle" checked>
-                  <input type="radio" id="btn-2" name="toggle">
-                <div class="slider-controls">
-                  <label for="btn-1"></label>
-                  <label for="btn-2"></label>
-                </div>
-              <a href="#">Открыть каталог</a> -->
-            
-            </section>
-
-          <div class="menu-wrap">
-            <div class="sales">
-              <h3>Скидки 50%</h3>
-              <a href="#">На 350 товаров</a>
-            </div>
-            <div class="delivery">
-              <h3>Доставка</h3>
-              <a href="#">Бесплатно</a>
+                <div class="main-menu-item delivery">
+                  <div class="menu-item-wrap">
+                    <h3>Доставка</h3>
+                    <a href="#">Бесплатно</a>
+                  </div>
+                  <img src="img/svg-technomart/icon-5.svg" alt="" class="main-menu-icon">
             </div>
           </div>
         </div>

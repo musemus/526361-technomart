@@ -25,25 +25,23 @@ a {
 
 .logo {
     background-color: #ee3643;
-    border-bottom: 5px solid #b52933;
-    padding-top: 17px;
-    padding-bottom: 12px;
+    box-shadow: 0px 5px 0px 0px #b52933;
     padding-left: 55px;
     padding-right: 55px;
-    position: absolute;
-    left: 220px;
-    height: 25px;
+    height: 40px;
+    display: flex;
+    align-items: center;
 
 }
 
 .logo:hover {
     background-color: #ca2c37;
-    border-bottom: 5px solid #9a212a;
+    box-shadow: 0px 5px 0px 0px #9a212a;
 }
 
 .logo:active {
     background-color: #ba2732;
-    border-bottom: 5px solid #8e1e26;
+    box-shadow: 0px 5px 0px 0px #8e1e26;
 }
 
 .header-user-wrap {
@@ -74,7 +72,7 @@ a {
 .search-form {
     display: flex;
     align-items: center;
-    margin-right: 40px;
+    margin-right: auto;
 }
 
 .search-form:hover .search-icon {
@@ -91,8 +89,6 @@ a {
 input[type="search"] {
     width: 220px;
     background-color: #293449;
-    padding-top: 19px;
-    padding-bottom: 17px;
     padding-left: 0;
     padding-right: 16px;
     border: 0;
@@ -142,15 +138,11 @@ input[type="search"]:focus {
 }
 
 .header-bookmarks {
-    padding-top: 14px;
-    padding-bottom: 14px;
     padding-left: 13px;
     padding-right: 29px;
 }
 
 .header-cart {
-    padding-top: 14px;
-    padding-bottom: 14px;
     padding-left: 17px;
     padding-right: 31px;
 }
@@ -161,16 +153,14 @@ input[type="search"]:focus {
 
 .header-cart-added {
     background-color: #ee3643;
-    padding-top: 14px;
-    padding-bottom: 14px;
     padding-left: 17px;
     padding-right: 31px;
 }
 
 .checkout-order {
     background-color: #63a63e;
-    padding-top: 14px;
-    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
     padding-left: 21px;
     padding-right: 23px;
 }
@@ -204,10 +194,13 @@ input[type="search"]:focus {
 
 .header-phone {
     border: 3px solid #ffffff;
-    padding-top: 13px;
     padding-right: 53px;
-    padding-bottom: 12px;
     padding-left: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 45px;
+
 }
 
 .header-phone a {
@@ -233,11 +226,11 @@ input[type="search"]:focus {
 
 .user-input {
     background-color: #ffffff;
-    padding-top: 14px;
     padding-right: 27px;
-    padding-bottom: 14px;
     padding-left: 14px;
-    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    height: 45px;
 }
 
 .user-input a {
@@ -248,10 +241,11 @@ input[type="search"]:focus {
 }
 
 .user-registration {
+    display: flex;
+    align-items: center;
+    height: 45px;
     background-color: #ffffff;
-    padding-top: 14px;
     padding-right: 26px;
-    padding-bottom: 16px;
     padding-left: 25px;
     margin-left: 10px;
 }
@@ -633,71 +627,194 @@ display: inline-block;
     background-color: rgba( 255, 255, 255, 0.3)
 }
 
-
-.materials {
+.main-menu-item {
     width: 300px;
     height: 122px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 23px;
+    padding-right: 43px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.main-menu-item h3 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.materials {
     background-color: #ffbf47;
-    
 }
 
 .tools {
-    width: 300px;
-    height: 122px;
     background-color: #3bbce3;
 
 }
 
 .technics {
-    width: 300px;
-    height: 122px;
     background-color: #dc91d8;
 }
 
 .sales {
-    width: 300px;
-    height: 122px;
     background-color: #8ed78f;
     margin-bottom: 20px;
 }
 
 .delivery {
-    width: 300px;
-    height: 122px;
     background-color: #ffc047;
 }
 
-.slider-two {
-    display: none;
+
+.main-slider {
+    width: 620px;
+    height: 266px;
+    position: relative;
 }
 
-.slider-inner {
-    width: 200%;
+.slider-list {
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0, 0, 0, 0);
+  }
 
-.slider-inner img {
-    float: left;
-    overflow: hidden;
+.slider-controls-arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 20px;
+    box-sizing: border-box;
 }
-
-.main-slider .visually-hidden {
-    visibility: hidden;
-    font-size: 0;
-    height: 0px;
-}
-
-.slider-inner h2 {
+.slide-title {
     font-family: "Cuprum", Arial, sans-serif;
     font-size: 36px;
     line-height: 30px;
     font-weight: 700;
-    text-transform: uppercase;    
+    text-transform: uppercase;
+    margin: 0;
+    margin-left: 26px;
+    padding-top: 29px;
+    padding-bottom: 4px;
+    color: white;
 }
 
-.slider-inner p {
+.slide-subtitle {
     font-size: 18px;
+    padding: 0;
+    margin: 0;
     line-height: 24px;
+    margin-left: 26px;
+    color: white;
+    padding-bottom: 120px;
 }
+
+.slider-button {
+    margin-left: 25px;
+    border-radius: 4px;
+}
+
+.slider-controls {
+    position: absolute;
+    left: 50%;
+    bottom: 33px;
+    z-index: 100;
+    
+    width: 160px;
+    height: 18px;
+  
+    text-align: center;
+    font-size: 0;
+    transform: translateX(-50%);
+  }
+  
+  .slider-controls label {
+    position: relative;
+    
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .slider-controls label::after {
+    content: "";
+    
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+    
+    width: 10px;
+    height: 10px;
+    
+    background: #ffffff;
+    
+    border-radius: 50%;
+  }
+  
+  .slider-list {
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+  }
+  
+  .slider-item {
+    display: none;
+    height: 266px;
+  }
+  
+  .slider-item:nth-child(1) {
+    background-image: url("../img/perforator.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+  
+  .slider-item:nth-child(2) {
+    background-image: url("../img/drill.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+  
+  
+  #product-1:checked ~ .slider-list .slider-item:nth-child(1) {
+    display: block;
+  }
+  
+  #product-2:checked ~ .slider-list .slider-item:nth-child(2) {
+    display: block;
+  }
+  
+
+  #product-1:checked ~ .slider-controls .slider-controls-item--1::before,
+  #product-2:checked ~ .slider-controls .slider-controls-item--2::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    width: 6px;
+    height: 6px;
+    margin: -3px;
+    background-color: inherit;
+    background-color: #EE3643;
+    border-radius: 50%;
+  }
 
 .main-slider a,
 .popular-item-header a,
