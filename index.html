@@ -75,7 +75,6 @@
         </ul>
       </nav>
     </header>
-
     <main class="main">
       <section class="main-menu">
         <div class="top-row">
@@ -84,24 +83,26 @@
               <h3>Материалы</h3>
               <a href="#">На любой вкус</a>
             </div>
-            <img src="img/svg-technomart/icon-1.svg" alt="" class="main-menu-icon">
+            <div class="image-materials"></div>
+            <div class="menu-flag flag-new">новинка</div>
           </div>
           <div class="main-menu-item tools">
             <div class="menu-item-wrap">
               <h3>Инструменты</h3>
               <a href="#">На все случаи</a>
             </div>
-            <img src="img/svg-technomart/icon-2.svg" alt="" class="main-menu-icon">
+            <div class="image-tools"></div>
+            <div class="menu-flag"></div>
           </div>
           <div class="main-menu-item technics">
             <div class="menu-item-wrap">
               <h3>Техника</h3>
               <a href="#">Для стройки</a>
             </div>
-            <img src="img/svg-technomart/icon-3.svg" alt="" class="main-menu-icon">
+            <div class="image-technics"></div>
+            <div class="menu-flag"></div>            
           </div>
         </div>
-        
         <div class="bottom-row">
           <section class="main-slider">
             <div class="slider-controls-arrows">
@@ -115,67 +116,88 @@
               <label class="slider-controls-item slider-controls-item--2" for="product-2">Второй слайд</label>
             </div>
             <ul class="slider-list">
-                <li class="slider-item">
-                  <h2 class="slide-title">Перфораторы</h2>
-                  <p class="slide-subtitle">Настоящие мужские игрушки</p>
-                  <a href="catalog.html" class="slider-button">Открыть каталог</a>
-                </li>
-                <li class="slider-item">
-                  <h2 class="slide-title">Дрели</h2>
-                  <p class="slide-subtitle">Соседям на радость!</p>
-                  <a href="catalog.html" class="slider-button">Открыть каталог</a>
-                </li>
-              </ul>                         
+              <li class="slider-item">
+                <h2 class="slide-title">Перфораторы</h2>
+                <p class="slide-subtitle">Настоящие мужские игрушки</p>
+                <a href="catalog.html" class="slider-button">Открыть каталог</a>
+              </li>
+              <li class="slider-item">
+                <h2 class="slide-title">Дрели</h2>
+                <p class="slide-subtitle">Соседям на радость!</p>
+                <a href="catalog.html" class="slider-button">Открыть каталог</a>
+              </li>
+            </ul>                         
           </section>
-              
-              <div class="menu-wrap">
-                <div class="main-menu-item sales">
-                  <div class="menu-item-wrap">
-                    <h3>Скидки 50%</h3>
-                    <a href="#">На 350 товаров</a>
-                  </div>
-                  <img src="img/svg-technomart/icon-4.svg" alt="" class="main-menu-icon">
-                </div>
-                <div class="main-menu-item delivery">
-                  <div class="menu-item-wrap">
-                    <h3>Доставка</h3>
-                    <a href="#">Бесплатно</a>
-                  </div>
-                  <img src="img/svg-technomart/icon-5.svg" alt="" class="main-menu-icon">
+          <div class="menu-wrap">
+            <div class="main-menu-item sales">
+              <div class="menu-item-wrap">
+                <h3>Скидки 50%</h3>
+                  <a href="#">На 350 товаров</a>
+              </div>
+              <div class="image-sales"></div>
+              <div class="menu-flag"></div>
+            </div>
+            <div class="main-menu-item delivery">
+              <div class="menu-item-wrap">
+                <h3>Доставка</h3>
+                  <a href="#">Бесплатно</a>
+              </div>
+              <div class="image-delivery"></div>
+              <div class="menu-flag"></div>
             </div>
           </div>
         </div>
       </section>
-       
       <section class="popular-item">
         <div class="popular-item-header">
           <h2>Популярные товары:</h2>
           <a href="#">Все популярные товары</a>
         </div>
         <div class="popular-item-wrapper">
-          <a href="#" class="item">
-            <img src="img\9000.jpg" alt="9000">
-            <h3>Перфоратор BOSCH BFG 9000</h3> 
-            <p class="price-1">32500 P.</p>
-            <p class="price-2">25500 P.</p>
-          </a>
-          <a href="#"  class="item">
-            <img src="img\3000.jpg" alt="3000">
-            <h3>Перфоратор BOSCH BFG 3000</h3>
-            <p class="price-1">22500 P.</p>
-            <p class="price-2">15500 P.</p>
-          </a>
-          <a href="#" class="item">
-            <img src="img\6000.jpg" alt="6000">
-            <h3>Перфоратор BOSCH BFG 6000</h3>
-            <p class="price-1">30500 P.</p>
-            <p class="price-2">25500 P.</p>
-          </a>
-          <a href="#" class="item">
-            <img src="img\2000.jpg" alt="2000">
-            <h3>Перфоратор BOSCH BFG 2000<span>new</span></h3>
-            <p class="price-2">15500 P.</p>
-          </a>
+          <div class="item">
+            <div class="flag"></div>
+            <div class="actions">
+                <a href="#" class="buy">Купить</a>
+                <a href="#" class="to-bookmark">В закладки</a>
+            </div>
+            <div class="image"><img width="218" height="168" src="img\9000.jpg" alt="9000"></div>
+            <div class="title-item">Перфоратор BOSCH BFG 9000</div>
+            <div class="discount">32500 P.</div>
+            <div class="price">25500 P.</div>
+          </div>
+          <div class="item">
+            <div class="flag"></div>
+            <div class="actions">
+              <a href="#" class="buy">Купить</a>
+              <a href="#" class="to-bookmark">В закладки</a>
+            </div>
+            <div class="image"><img width="218" height="168" src="img\3000.jpg" alt="3000"></div>
+            <div class="title-item">Перфоратор BOSCH BFG 3000</div>
+            <div class="discount">22500 P.</div>
+            <div class="price">15500 P.</div>
+          </div>
+          <div class="item">
+            <div class="flag"></div>
+            <div class="actions">
+              <a href="#" class="buy">Купить</a>
+              <a href="#" class="to-bookmark">В закладки</a>
+            </div>
+            <div class="image"><img width="218" height="168" src="img\6000.jpg" alt="6000"></div>
+            <div class="title-item">Перфоратор BOSCH BFG 6000</div>
+            <div class="discount">30500 P.</div>
+            <div class="price">25500 P.</div>
+          </div>
+          <div class="item">
+            <div class="flag flag-new">новинка</div>
+            <div class="actions">
+              <a href="#" class="buy">Купить</a>
+              <a href="#" class="to-bookmark">В закладки</a>
+            </div>
+            <div class="image"><img width="218" height="168" src="img\2000.jpg" alt="2000"></div>
+            <div class="title-item">Перфоратор BOSCH BFG 2000</div>
+            <div class="discount"></div>
+            <div class="price">15500 P.</div>
+          </div>
         </div>
       </section>
       <section class="popular-producers">
