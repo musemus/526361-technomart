@@ -198,30 +198,33 @@ input[type="search"]::placeholder {
 }
 
 .header-phone {
-    border: 3px solid #ffffff;
-    padding-right: 53px;
-    padding-left: 15px;
-    box-sizing: border-box;
+    position: relative;
     display: flex;
     align-items: center;
+    border: 3px solid #ffffff;    
     height: 45px;
+    padding-left: 74px;
+}
 
+.phone-icon {
+    position: absolute;
+    width: 22px;
+    height: 20px;
+    left: 15px;
+    background: url("../img/svg-technomart/icon-phone.svg") no-repeat 0 0;
 }
 
 .header-phone a {
     font-size: 21px;
     line-height: 18px;
     color: #ee3643;
-    padding-left: 41px;
+    
 }
 
 .address {
     font-size: 14px;
     line-height: 24px;
     color: #32425c; 
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 .user-input-registration {
@@ -230,19 +233,28 @@ input[type="search"]::placeholder {
 }
 
 .user-input {
-    background-color: #ffffff;
-    padding-right: 27px;
-    padding-left: 14px;
+    position: relative;
     display: flex;
     align-items: center;
+    background-color: #ffffff;
     height: 45px;
+    padding-right: 26px;
+    padding-left: 47px;
 }
 
 .user-input a {
     font-size: 21px;
     line-height: 18px;
     color: #000000;
-    padding-left: 15px;
+    
+}
+
+.input-icon {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    left: 14px;
+    background: url("../img/svg-technomart/icon-login.svg") no-repeat 0 0;
 }
 
 .user-registration {
@@ -911,6 +923,16 @@ input[type="search"]::placeholder {
     margin-bottom: 68px;
 }
 
+.popular-producers a:hover {
+    box-shadow: 0px 9px 30px 1px rgba(0,0,0,0.5);
+}
+
+.popular-producers a:active {
+    box-shadow: 0px 9px 10px 0px rgba(0,0,0,0.6);
+    opacity: 0.5;
+}
+
+
 .popular-item-header {
     display: flex;
     height: 90px;
@@ -1065,7 +1087,7 @@ input[type="search"]::placeholder {
 }
 
 .item:hover {
-    box-shadow: 0px 9px 38px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 9px 30px 1px rgba(0,0,0,0.5);
 }
 
 .actions .buy {
@@ -1194,7 +1216,6 @@ input[type="search"]::placeholder {
     max-width: 940px;
     margin: 0 auto;
     padding-top: 68px;
-    padding-bottom: 80px;
 }
 
 .service-choice {
@@ -1214,22 +1235,36 @@ input[type="search"]::placeholder {
     line-height: 24px;
 }
 
-.servise-guarantee,
-.servise-credit {
+.servise-credit,
+.servise-guarantee {
     display: none;
 }
 
-.service-delivery,
+
+.servise-delivery,
 .servise-guarantee,
 .servise-credit {
-    width: 275px;
-    margin-top: 50px;
+    flex-grow: 1;
+    padding-bottom: 125px;
+    margin-top: 32px;
     margin-left: 80px;
 }
 
-.service-delivery h2,
-.servise-guarantee h2,
-.servise-credit h2 {
+.about-delivery {
+    width: 277px;
+}
+
+.about-guarantee {
+    width: 380px;
+}
+
+.about-credit {
+    width: 280px;
+}
+
+.about-delivery h2,
+.about-guarantee h2,
+.about-credit h2{
     font-family: "Cuprum", Arial, sans-serif;
     font-size: 36px;
     line-height: 24px;
@@ -1237,10 +1272,11 @@ input[type="search"]::placeholder {
     text-transform: uppercase;
 }
 
-.service-delivery p,
-.servise-guarantee p,
-.servise-credit p {
+.about-delivery p,
+.about-guarantee p,
+.about-credit p{
     font-family: "PT Sans", Arial, sans-serif;
+    font-weight: 400;
     font-size: 13px;
     line-height: 24px;
     color: #000000;
@@ -1259,37 +1295,73 @@ input[type="search"]::placeholder {
     padding-left: 49px;
 }
 
-.servise-button {
+.servise-delivery {
+    background: url("../img/delivery.png") no-repeat 100% 100%;
+}
+
+.servise-guarantee {
+    background: url("../img/guaranty.png") no-repeat 100% 100%;
+}
+
+.servise-credit {
+    background: url("../img/credit.png") no-repeat 100% 100%;
+}
+
+.servise-wrap {
+    position: relative;
     margin-top: 63px;
 }
 
-.servise-button a{
+.servise-button-wrap {
+    display: flex;
+    align-items: center;
     font-family: "Cuprum", Arial, sans-serif;
     font-size: 21px;
     line-height: 30px;
     font-weight: 700;
-    color: #ffffff;
+    width: 240px;
+    height: 60px;
     background-color: #32425c;
-    padding-top: 21px;
-    padding-right: 141px;
-    padding-bottom: 22px;
-    padding-left: 22px;
-    display: block;
     
 }
 
-.servise-button-choice {
-    list-style: none;
-    padding-left: 0;
+.active-button-wrap {
+    display: flex;
+    align-items: center;
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: 700;
+    width: 240px;
+    height: 60px;
+    background-color: #ffffff;
 }
 
-.servise-button a:hover {
+.servise-button {
+    padding-left: 22px;
+    color: #ffffff;
+}
+
+.servise-button-active {
+    padding-left: 22px;
+    color: #32425c;
+}
+
+.servise-button-wrap:hover {
     background-color: #293449;
 }
 
-.servise-button a:active {
-    background-color: #ffffff;
-    color: #32425c;
+.servise-shadow {
+    position: absolute;
+    width: 15px;
+    height: 264px;
+    right: -6px;
+    top: -32px;
+    background: url("../img/shadow.png") no-repeat 0 0;
+}
+
+.service-icon {
+    background: url("../img/svg-technomart/servise_credit.svg") no-repeat 0 0;
 }
 
 .info-wrap {
@@ -1326,6 +1398,23 @@ input[type="search"]::placeholder {
 .variant-delivery li:nth-child(2),
 .variant-delivery li:nth-child(3) {
     padding-top: 20px;
+}
+
+.variant-delivery {
+    position: relative;
+    list-style: none;
+    padding-left: 34px;
+}
+
+.variant-delivery li::before {
+    position: absolute;
+    display: block;
+    content: " ";
+    width: 25px;
+    height: 2px;
+    background: red;
+    left: 0px;
+    margin-top: 8px;
 }
 
 .about-us-button a {
@@ -1435,8 +1524,6 @@ input[type="search"]::placeholder {
     padding-left: 80px;
     padding-right: 80px;   
 }
-
-
 
 .footer-1-wrap {
     background-color: #32425a;
@@ -1548,22 +1635,34 @@ input[type="search"]::placeholder {
     margin-right: 65px;
 }
 
-.footer-social-button {
-    list-style: none;
+.footer-social {
     display: flex;
-    justify-content: space-between;
-    padding-left: 0;
-    margin-left: 65px;
-    margin-right: 90px;
+    align-items: center;
 }
 
-.footer-social-button li {
-    padding-right: 8px;
-}
-
-.footer-social a {
+.social {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
     background-color: #212a3a;
-    padding: 10px;
+    
+}
+
+.footer-social a:nth-child(2),
+.footer-social a:nth-child(3) {
+    margin-left: 5px;
+} 
+
+.social-vk {
+    background: url("../img/svg-technomart/icon-vk.svg") no-repeat 50% 50%;
+}
+
+.social-fb {
+    background: url("../img/svg-technomart/icon-fb.svg") no-repeat 50% 50%;
+}
+
+.social-insta {
+    background: url("../img/svg-technomart/icon-insta.svg") no-repeat 50% 50%;
 }
 
 .footer-social a:hover,
