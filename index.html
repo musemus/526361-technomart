@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <div class="map-popup-wrap">
+      <a href=""><img class="map-popup-close" src="img\svg-technomart\form-2.svg" alt=""></a>
+    </div>
     <header class="header">
       <div class="header-user-wrap">
         <h1 class="visually-hidden">Магазин инструментов "Техномарт"</h1>
@@ -16,18 +19,21 @@
             <img src="img\technomart.png" alt="logo">
           </a>
           <div class="search-form-wrap">
-            <div class="header-icon search-icon"></div>
             <form class="search-form">
-              <input type="search" name="search" placeholder="Поиск:">
+              <input class="search-input" type="search" name="search" placeholder="Поиск:">
+              <svg class="search-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17px"
+              height="17px" viewBox="0 0 17 17" enable-background="new 0 0 17 17" xml:space="preserve">
+                <path d="M17,15.586l-3.542-3.542C14.421,10.782,15,9.21,15,7.5C15,3.358,11.643,0,7.5,0C3.358,0,0,3.358,0,7.5
+                  C0,11.643,3.358,15,7.5,15c1.71,0,3.282-0.579,4.544-1.542L15.586,17L17,15.586z M2,7.5C2,4.467,4.467,2,7.5,2
+                  C10.532,2,13,4.467,13,7.5c0,3.032-2.468,5.5-5.5,5.5C4.467,13,2,10.532,2,7.5z"/>
+              </svg>
             </form>
           </div>
           <div class="header-item-wrap">
-            <div class="header-icon bookmark-icon"></div>           
-            <a href="#" class="header-bookmarks">Закладки: 0</a>
+            <a href="#" class="header-bookmarks bookmark-icon">Закладки: 0</a>
           </div>
           <div class="header-item-wrap">
-            <div class="header-icon cart-icon"></div>
-            <a href="#" class="header-cart">Корзина: 0</a>
+            <a href="#" class="header-cart cart-icon">Корзина: 0</a>
           </div>
           <div class="checkout-order-wrap">
             <a href="#" class="checkout-order">Оформить заказ</a>
@@ -47,7 +53,14 @@
         </div> 
         <div class="user-input-registration">
           <div class="user-input">
-            <div class="input-icon"></div>
+            <svg class="input-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              width="20px" height="17px" viewBox="0 0 20 17" enable-background="new 0 0 20 17" xml:space="preserve">
+            <g>
+              <polygon points="14.875,8.5 6,0 6,6 0,6 0,11 6,11 6,17   "/>
+            </g>
+            <path d="M16.986,15.01h-5.027V17h5.027c2.178,0,3.004-1.81,3.029-3.026V3.028C19.99,1.811,19.164,0,16.986,0h-5.027
+              v1.99h5.027c0.839,0,0.992,0.681,1.01,1.057v10.904C17.979,14.327,17.825,15.01,16.986,15.01z"/>
+            </svg>
             <a href="#" class="header-input">Вход</a>
           </div>
           <div class="user-registration">
@@ -87,7 +100,7 @@
           <div class="main-menu-item materials">
             <div class="menu-item-wrap">
               <h3>Материалы</h3>
-              <a href="#">На любой вкус</a>
+              <a class="main-menu-button" href="#">На любой вкус</a>
             </div>
             <div class="image-materials"></div>
             <div class="menu-flag flag-new">новинка</div>
@@ -95,7 +108,7 @@
           <div class="main-menu-item tools">
             <div class="menu-item-wrap">
               <h3>Инструменты</h3>
-              <a href="#">На все случаи</a>
+              <a class="main-menu-button" href="#">На все случаи</a>
             </div>
             <div class="image-tools"></div>
             <div class="menu-flag"></div>
@@ -103,7 +116,7 @@
           <div class="main-menu-item technics">
             <div class="menu-item-wrap">
               <h3>Техника</h3>
-              <a href="#">Для стройки</a>
+              <a class="main-menu-button" href="#">Для стройки</a>
             </div>
             <div class="image-technics"></div>
             <div class="menu-flag"></div>            
@@ -138,7 +151,7 @@
             <div class="main-menu-item sales">
               <div class="menu-item-wrap">
                 <h3>Скидки 50%</h3>
-                  <a href="#">На 350 товаров</a>
+                  <a class="main-menu-button" href="#">На 350 товаров</a>
               </div>
               <div class="image-sales"></div>
               <div class="menu-flag"></div>
@@ -146,7 +159,7 @@
             <div class="main-menu-item delivery">
               <div class="menu-item-wrap">
                 <h3>Доставка</h3>
-                  <a href="#">Бесплатно</a>
+                  <a class="main-menu-button" href="#">Бесплатно</a>
               </div>
               <div class="image-delivery"></div>
               <div class="menu-flag"></div>
@@ -273,17 +286,13 @@
                 <li>Автотрейдинг</li>
                 <li>ЖелДорЭкспедиция</li>
               </ul>
-            <div class="about-us-button">
-              <a href="#">Подробнее о компании</a>
-            </div>
+            <a class="about-us-button red-button" href="#">Подробнее о компании</a>
           </div>
           <div class="communications">
             <h2>Контакты</h2>
-              <p>Выможете забрать товар сами, заехав в наш офис:</p>
-              <img src="img\map.jpg" alt="Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8">
-            <div class="communications-button">
-              <a href="#">Заблудились? Напишите нам!</a>
-            </div>
+            <p>Выможете забрать товар сами, заехав в наш офис:</p>
+            <img src="img\map.jpg" alt="Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8">
+            <a class="communications-button red-button" href="#">Заблудились? Напишите нам!</a>
           </div>
         </section>
         <div class="form-1-wrap">
