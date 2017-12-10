@@ -49,6 +49,8 @@ a {
 
 .header-user {
     width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     justify-content: flex-end;
     margin: 0 auto;
@@ -209,10 +211,13 @@ input[type="search"]::placeholder {
 
 .header-info-wrap {
     width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 49px;
+    m
 }
 
 .header-info {
@@ -233,6 +238,7 @@ input[type="search"]::placeholder {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 22px;
 }
 
 .header-phone {
@@ -252,7 +258,7 @@ input[type="search"]::placeholder {
     width: 22px;
     height: 20px;
     top: 0px;
-    left: -58px;
+    left: -60px;
     background: url("../img/svg-technomart/icon-phone.svg") no-repeat 0 0;
 }
 
@@ -376,7 +382,7 @@ input[type="search"]::placeholder {
     padding-top: 14px;
     padding-right: 10px;
     padding-bottom: 9px;
-    padding-left: 40px;
+    padding-left: 33px;
     background-color: #ffffff;
     fill: #c5c5c5;
 }
@@ -398,8 +404,8 @@ input[type="search"]::placeholder {
 .user-cabinet {
     display: flex;
     padding: 0;
-    margin-left: 12px;
-    margin-top: 10px;
+    margin-left: 15px;
+    margin-top: 5px;
 }
 
 .user-cabinet li {
@@ -442,10 +448,14 @@ input[type="search"]::placeholder {
 }
 
 .header-navigation {
-    background-color: #32425c;
-    border-bottom: 5px solid #293449;
     width: 940px;
     margin: 13px auto 0;  
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #32425c;
+    border-bottom: 5px solid #293449;
+    
+    
 }
 
 .header-navigation a:hover {
@@ -485,6 +495,8 @@ input[type="search"]::placeholder {
 .container {
     width: 940px;
     margin: 24px auto 0; 
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .breadcrumbs-wrap {
@@ -763,14 +775,15 @@ input[type="search"]::placeholder {
 .radio-filter {
     display: flex;
     flex-direction: column;
-    padding-bottom: 59px;
+    padding-bottom: 62px;
 }
 
 .radio-filter label {
     font-size: 14px;
     line-height: 20px;
     text-transform: uppercase;
-    margin-top: 16px;
+    margin-top: 0px;
+    margin-bottom: 19px;
 }
 
 .filter-button {
@@ -778,7 +791,7 @@ input[type="search"]::placeholder {
     line-height: 18px;
     text-transform: uppercase;
     background-color: #ffffff;
-    padding: 14px 33px 14px 37px;
+    padding: 9px 33px 7px 37px;
     border: 2px solid #f7f3ec;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -854,7 +867,7 @@ input[type="search"]::placeholder {
 }
 
 .main {
-    margin-top: 60px;
+    margin-top: 56px;
 }
 
 .main-menu {
@@ -864,6 +877,8 @@ input[type="search"]::placeholder {
     justify-content: space-between;
     margin: 0 auto;
     margin-bottom: 52px;  
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .top-row {
@@ -1216,7 +1231,7 @@ input[type="search"]::placeholder {
     align-items: center;
     justify-content: space-between;
     background-color: #f9f5f0;
-    padding-left: 26px;
+    padding-left: 28px;
     padding-right: 23px;
 }
 
@@ -1234,6 +1249,8 @@ input[type="search"]::placeholder {
 .popular-producers {
     width: 940px;
     margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .popular-producers {
@@ -1260,6 +1277,7 @@ input[type="search"]::placeholder {
     width: 218px;
     height: 142px;
     margin-bottom: 20px;
+    padding-left: 4px;
     border: 1px solid #eaeaea;
 }
 
@@ -1278,8 +1296,8 @@ input[type="search"]::placeholder {
     color: #000000;
     min-height: 40px;
     padding: 0 25px;
-    margin-top: 10px;
-    margin-bottom: 1px;
+    margin-top: 7px;
+    margin-bottom: 0px;
 }
 
 .item {
@@ -1320,6 +1338,7 @@ input[type="search"]::placeholder {
 .item .image {
     width: 218px;
     height: 168px;
+    padding-top: 4px;
 }
 
 .item .image img {
@@ -1333,7 +1352,7 @@ input[type="search"]::placeholder {
     font-weight: 700;
     min-height: 20px;
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     color: #a9a9a9;
     text-decoration: line-through;
 }
@@ -1349,8 +1368,8 @@ input[type="search"]::placeholder {
 .item .price {
     position: relative;
     width: 136px;
-    margin: 5px auto;
-    margin-bottom: 20px;
+    margin: 9px auto;
+    margin-bottom: 21px;
     padding: 10px 0px;
     color: #ffffff;
     background: #ee3643;
@@ -1553,6 +1572,8 @@ input[type="search"]::placeholder {
 
 .about-product {
     width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0 auto;
     padding-top: 43px;
     padding-bottom: 59px;
@@ -1576,6 +1597,9 @@ input[type="search"]::placeholder {
     flex-wrap: wrap;
     margin: 0 auto;
     padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f4f8f9;  
 }
 
 .service-choice {
@@ -1607,8 +1631,9 @@ input[type="search"]::placeholder {
 .servise-credit {
     flex-grow: 1;
     padding-bottom: 120px;
-    margin-top: 32px;
+    margin-top: 27px;
     margin-left: 78px;
+    padding-left: 2px;
 }
 
 .about-delivery {
@@ -1671,7 +1696,7 @@ input[type="search"]::placeholder {
 
 .servise-wrap {
     position: relative;
-    margin-top: 57px;
+    margin-top: 52px;
 }
 
 .servise-button-wrap {
@@ -1729,6 +1754,8 @@ input[type="search"]::placeholder {
 .info {
     width: 940px;
     margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .info-wrap {
@@ -1834,11 +1861,13 @@ input[type="search"]::placeholder {
 }
 
 .map-popup-wrap {
+    width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%);
-    width: 940px;
     height: 446px;
     z-index: 500;
     border-radius: 3px;
@@ -1957,6 +1986,8 @@ input[type="search"]::placeholder {
 
 .footer-navigation {
     width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0 auto;
     display: flex;
     flex-wrap: nowrap;
@@ -2046,12 +2077,14 @@ input[type="search"]::placeholder {
 
 .footer-2-wrap {
     width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding-top: 23px;
     padding-bottom: 32px;
-    background-color: #32425a;
+    background-color: #293449; 
 }
 
 .rights {
