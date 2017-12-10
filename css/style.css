@@ -1270,7 +1270,7 @@ input[type="search"]::placeholder {
     flex-wrap: wrap;
 }
 
-.title-item {
+.title-item h3{
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 18px;
     line-height: 20px;
@@ -1539,6 +1539,11 @@ input[type="search"]::placeholder {
     padding: 14px 49px;
     border-radius: 3px;
     color: #000000;
+}
+
+.cart-form-order {
+    padding: 14px 49px;
+    border-radius: 3px;
 }
 
 .about-product-wrap {
@@ -1865,6 +1870,12 @@ input[type="search"]::placeholder {
     display: none;
 }
 
+.form-1-wrap label {
+    display: block;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
 .wrap {
     justify-content: space-between;
     display: flex;
@@ -1950,6 +1961,7 @@ input[type="search"]::placeholder {
     display: flex;
     flex-wrap: nowrap;
     padding-bottom: 32px;
+    background-color: #32425a;
 }
 
 .footer-logo {
@@ -2039,6 +2051,7 @@ input[type="search"]::placeholder {
     justify-content: space-between;
     padding-top: 23px;
     padding-bottom: 32px;
+    background-color: #32425a;
 }
 
 .rights {
