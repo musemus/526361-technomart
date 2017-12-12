@@ -3,23 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
-    <link href='https://fonts.googleapis.com/css?family=Cuprum:400,400italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400italic,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">  
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <div class="map-popup-wrap">
-        <a href="https://www.google.com/maps/search/г.+санкт-петербург,+б.+конюшенная,+д.+19%2F8/@59.9386678,30.3205804,17z/data=!3m1!4b1?hl=ru" class="map-popup-link">
-        <img class="map-popup-image" src="img/map-popup.jpg" alt="">
-        </a>
-        <a href=""><img class="map-popup-close" src="img/svg-technomart/form-2.svg" alt=""></a>
-      </div>
+      <img class="map-popup-image" src="img/map-popup.jpg" alt="map">
+      <button type="button" class="map-popup-close">закрыть</button> 
+    </div>
     <header class="header">
       <div class="header-user-wrap">
         <h1 class="visually-hidden">Магазин инструментов "Техномарт"</h1>
         <div class="header-user">
-          <a class="logo" href="index.html">
+          <a class="logo" href="#">
             <img src="img/technomart.png" alt="logo">
           </a>
           <div class="search-form-wrap">
@@ -51,7 +49,7 @@
             <a class="phone phone-icon" href="tel:+7(812)555-05-55">+7 (812) 555-05-55</a>
           </div>
           <div class="addres-wrap">
-          <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>  
+            <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>  
           </div>
         </div> 
         <div class="user-input-registration">
@@ -179,8 +177,8 @@
           <div class="item">
             <div class="flag"></div>
             <div class="actions">
-                <a href="#" class="buy">Купить</a>
-                <a href="#" class="to-bookmark">В закладки</a>
+              <a href="#" class="buy">Купить</a>
+              <a href="#" class="to-bookmark">В закладки</a>
             </div>
             <div class="image"><img width="218" height="168" src="img/9000.jpg" alt="9000"></div>
             <div class="title-item"><h3>Перфоратор BOSCH BFG 9000</h3></div>
@@ -233,8 +231,8 @@
           <a href="#"><img src="img/dewalt.jpg" alt="DeWalt"></a>
           <a href="#"><img src="img/interscol.jpg" alt="Интерскол"></a>
           <a href="#"><img src="img/hitachi.jpg" alt="HITACHI"></a>
-          <a href="#"><img src="img/LG.jpg" alt="LG"></a>
-          <a href="#"><img src="img/AEG.jpg" alt="AEG"></a>
+          <a href="#"><img src="img/lg.jpg" alt="LG"></a>
+          <a href="#"><img src="img/aeg.jpg" alt="AEG"></a>
           <a href="#"><img src="img/metabo.jpg" alt="Metabo"></a>
         </div>
       </section>   
@@ -242,27 +240,27 @@
         <div class="service-content-wrap">
           <div class="service-choice">
             <h2>Сервисы</h2>
-              <p>Хороший интернет-магазин отличается от плохого не только ценами!
+            <p>Хороший интернет-магазин отличается от плохого не только ценами!
           Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p> 
           </div>
           <div class="servise-wrap">
-              <div class="active-button-wrap">
-                <a class="servise-button-active" href="#">Доставка</a>
-              </div>
-              <div class="servise-button-wrap">
-                <a class="servise-button" href="#">Гарантия</a>
-              </div>
-              <div class="servise-button-wrap">
-                <a class="servise-button" href="#">Кредит</a>
-              </div>
+            <div class="active-button-wrap">
+              <a class="servise-button-active" href="#">Доставка</a>
+            </div>
+            <div class="servise-button-wrap">
+              <a class="servise-button" href="#">Гарантия</a>
+            </div>
+            <div class="servise-button-wrap">
+              <a class="servise-button" href="#">Кредит</a>
+            </div>
             <div class="servise-shadow"></div>
           </div>
-            <div class="servise-delivery">
-              <div class="about-delivery">
-                <h2>Доставка</h2>
-                  <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем,<br>поднимая его на ваш этаж!</p>
-              </div>
+          <div class="servise-delivery">
+            <div class="about-delivery">
+              <h2>Доставка</h2>
+                <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем,<br>поднимая его на ваш этаж!</p>
             </div>
+          </div>
           <div class="servise-guarantee">
             <div class="about-guarantee">
               <h2>Гарантия</h2>
@@ -272,7 +270,7 @@
           <div class="servise-credit">
             <div class="about-credit">
               <h2>Кредит</h2>
-                <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
+              <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
               <a href="#">Отправить заявку</a>
             </div>
           </div>
@@ -294,14 +292,16 @@
           <div class="communications">
             <h2>Контакты</h2>
             <p>Выможете забрать товар сами, <br>заехав в наш офис:</p>
-            <img src="img/map.jpg" alt="Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8">
+            <a href="https://www.google.com/maps/search/г.+санкт-петербург,+б.+конюшенная,+д.+19%2F8/@59.9386678,30.3205804,17z/data=!3m1!4b1?hl=ru" class="map-popup-link">
+             <img src="img/map.jpg" alt="Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8">
+            </a>
             <a class="communications-button red-button" href="#">Заблудились? Напишите нам!</a>
           </div>
         </div>
       </section>
         <div class="form-1-wrap">
           <form class="form-1">
-            <div class="icon-close"></div>
+            <button type="button" class="icon-close">закрыть</button> 
             <div class="wrap">
               <div class="form-1-name">
                 <label for="user-name">Ваше имя</label>
@@ -376,11 +376,11 @@
           </div>
           <div class="feedback">
             <p>Обратная связь:</p>
-              <a href="#">mail@htmlacademy.ru</a>
+            <a href="#">mail@htmlacademy.ru</a>
           </div>
           <div class="developed-by">
             <p>Разработано —</p>
-              <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+            <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
           </div>
         </div>
       </div>
