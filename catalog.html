@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400italic,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-min.css">
   </head>
   <body>
     <header class="header">
@@ -14,7 +14,7 @@
         <h1 class="visually-hidden">Магазин инструментов "Техномарт"</h1>
         <div class="header-user">
           <a class="logo" href="index.html">
-            <img src="img/technomart.png" alt="logo">
+            <img src="img/technomart.png" width="110" height="18" alt="logo">
           </a>
           <div class="search-form-wrap">
             <form class="search-form">
@@ -59,7 +59,7 @@
               </svg>
               Равшан Джамшутович
             </a>
-            <a href="#" class="logout-link">
+            <a href="#" class="logout-link">Выход
               <svg class="exit-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
               width="21px" height="17px" viewBox="0 0 21 17" enable-background="new 0 0 21 17" xml:space="preserve">
                 <g>
@@ -110,7 +110,9 @@
       <div class="breadcrumbs-wrap">
         <ul class="breadcrumbs">
           <li>
-            <a href="#"><img src="img/svg-technomart/icon-home.svg" alt="home"></a>
+            <a href="#">
+              <img src="img/svg-technomart/icon-home.svg" width="15" height="12" alt="home">
+            </a>
           </li>
           <li class="breadcrumb-item">
             <a href="#">Каталог</a>
@@ -149,16 +151,16 @@
             </div>
           <div class="checkbox-filter">
             <h3 class="filter-subtitle">Производители:</h3>
-            <input class="filter-checkbox" type="checkbox" id="bosch_checkbox" name="bosch" checked>
-            <label for="bosch_checkbox">Bosch</label>
+            <input class="filter-checkbox" type="checkbox" id="bosch-checkbox" name="bosch" checked>
+            <label for="bosch-checkbox">Bosch</label>
             <input class="filter-checkbox" type="checkbox" id="intersckol-check" name="intersckol">
             <label for="intersckol-check">Интерскол</label>
             <input class="filter-checkbox" type="checkbox" id="makita-checkbox" name="makita" checked>
             <label for="makita-checkbox">Makita</label>
             <input class="filter-checkbox" type="checkbox" id="dewalt-check" name="dewalt" disabled>
             <label for="dewalt-check">Dewalt</label>
-            <input class="filter-checkbox" type="checkbox" id="hitachi_check" name="hitachi">
-            <label for="hitachi_check">Hitachi</label>
+            <input class="filter-checkbox" type="checkbox" id="hitachi-check" name="hitachi">
+            <label for="hitachi-check">Hitachi</label>
           </div>
           <div class="radio-filter">
             <h3 class="filter-subtitle">Питание:</h3>
@@ -175,7 +177,7 @@
         <div class="sort">
           <p class="sort-title">Cортировка:</p>
           <ul class="sort-list">
-            <li><a href="#" class="sort-list-item sort-active">По цене</a></li>
+            <li><a href="#" class="sort-active">По цене</a></li>
             <li><a href="#" class="sort-list-item">По типу</a></li>
             <li><a href="#" class="sort-list-item">По функционалу</a></li>
           </ul>
@@ -345,7 +347,7 @@
       <div class="footer-1-wrap">
         <div class="footer-navigation">
           <div class="footer-contacts">
-            <img class="footer-logo" src="img/technomart-footer.png" alt="logo">
+            <img class="footer-logo" width="139" height="23" src="img/technomart-footer.png" alt="logo">
             <p class="footer-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>+7 (812) 555-05-55</p>
           </div>
           <div class="footer-menu">
@@ -405,9 +407,9 @@
       </div>
     </footer>
     <div class="cart-form">
-      <button type="button" class="cart-form-close-icon">зыкрыть</button>
+      <button type="button" class="cart-form-close-icon">закрыть</button>
       <div class="cart-form-ok">
-        <img class="cart-form-ok-icon" src="img/svg-technomart/form-1.svg" alt="icon">
+        <img class="cart-form-ok-icon" width="66" height="66" src="img/svg-technomart/form-1.svg" alt="icon">
         <h3 class="cart-form-info">Товар добавлен в корзину!</h3>
       </div>
       <div class="cart-form-variant">

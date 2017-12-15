@@ -360,7 +360,7 @@ input[type="search"]::placeholder {
 .user-name {
   display: flex;
   align-items: center;
-  padding-top: 0px;
+  padding-top: 2px;
   padding-right: 1px;
   padding-bottom: 3px;
   padding-left: 0;
@@ -396,6 +396,10 @@ input[type="search"]::placeholder {
   cursor: auto;
 }
 
+.logout-link {
+  font-size: 0;
+}
+
 .logout-link:hover .exit-icon {
   fill: #32425c;
 }
@@ -414,9 +418,9 @@ input[type="search"]::placeholder {
 }
 
 .exit-icon {
-  padding-top: 8px;
+  padding-top: 9px;
   padding-right: 9px;
-  padding-bottom: 9px;
+  padding-bottom: 3px;
   padding-left: 35px;
   background-color: #ffffff;
   fill: #c5c5c5;
@@ -2007,7 +2011,6 @@ input[type="search"]::placeholder {
   color: #a9a9a9;
   border: 2px solid #dee3e4;
   border-radius: 3px;
-
 }
 
 .button-form-1 {
@@ -2051,10 +2054,10 @@ input[type="search"]::placeholder {
 
 .footer-logo {
   display: inline-block;
-  padding-top: 21px;
-  padding-right: 41px;
-  padding-bottom: 21px;
-  padding-left: 42px;
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 41px;
   background-color: #ee3643;
   border-bottom: 5px solid #b52933;
 }
