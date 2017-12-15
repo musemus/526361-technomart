@@ -195,7 +195,6 @@ input[type="search"]::placeholder {
   justify-content: center;
   align-items: center;
   width: 150px;
-
   background-color: #63a63e;
   cursor: pointer;
 }
@@ -720,18 +719,17 @@ input[type="search"]::placeholder {
   border-bottom: 1px solid #e5e5e5;
 }
 
-
 .checkbox-filter label {
   margin-bottom: 20px;
 }
 
-.filter-checkbox + label:before,
-.filter-radio + label:before {
+.filter-checkbox + label::before,
+.filter-radio + label::before {
   opacity: 0.7;
 }
 
-.filter-checkbox:hover + label:before,
-.filter-radio:hover + label:before {
+.filter-checkbox:hover + label::before,
+.filter-radio:hover + label::before {
   opacity: 1;
 }
 
@@ -751,7 +749,7 @@ input[type="search"]::placeholder {
   opacity: 0;
 }
 
-.filter-checkbox:not(checked) + label:before {
+.filter-checkbox:not(checked) + label::before {
   content: " ";
   position: absolute;
   top: -2px;
@@ -761,7 +759,7 @@ input[type="search"]::placeholder {
   background: url("../img/svg-technomart/checkbox-off.svg") no-repeat 0 0;
 }
 
-.filter-checkbox:checked + label:before {
+.filter-checkbox:checked + label::before {
   background: url("../img/svg-technomart/checkbox-on.svg") no-repeat 0 0;
 }
 
@@ -775,7 +773,7 @@ input[type="search"]::placeholder {
   opacity: 0;
 }
 
-.filter-radio:not(checked) + label:before {
+.filter-radio:not(checked) + label::before {
   content: " ";
   position: absolute;
   top: -3px;
@@ -785,7 +783,7 @@ input[type="search"]::placeholder {
   background: url("../img/svg-technomart/radio-off.svg") no-repeat 0 0;
 }
 
-.filter-radio:checked + label:before {
+.filter-radio:checked + label::before {
   background: url("../img/svg-technomart/radio-on.svg") no-repeat 0 0;
 }
 
@@ -1112,7 +1110,6 @@ input[type="search"]::placeholder {
   cursor: pointer;
 }
 
-
 .slide-title {
   margin: 0;
   margin-left: 24px;
@@ -1422,7 +1419,7 @@ input[type="search"]::placeholder {
   border-radius: 3px;
 }
 
-.item .price:after {
+.item .price::after {
   content: " ";
   position: absolute;
   top: 0;
